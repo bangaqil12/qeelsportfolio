@@ -106,11 +106,32 @@
 								<a href="#" class="btn btn-secondary banner_btn">Hire Me</a>								
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6 position-relative">
- 						<div class="col-lg-6 col-md-6 position-relative" style="min-height: 200px;">
- 						 <img src="assets/img/aqilss.png" alt="" 
-       						style="position: absolute; top: -60px; right: -110px; width: 600px; height: auto; z-index: 1;" />
-							</div>
+						<div class="col-lg-6 col-md-6 position-relative" style="min-height: 200px;">
+  <img src="assets/img/aqilss.png" alt=""
+    class="img-custom" />
+</div>
+
+<style>
+.img-custom {
+  position: absolute;
+  top: -60px;
+  right: -110px;
+  width: 600px;
+  height: auto;
+  z-index: 1;
+}
+
+/* 🔽 Responsive di HP */
+@media (max-width: 768px) {
+  .img-custom {
+    width: 100%;
+    top: 0;
+    right: 0;
+    position: relative; /* optional: bisa diubah jadi static atau relative agar tetap rapi di layar kecil */
+  }
+}
+</style>
+
 						</div>
 					</div>
 				</div>
